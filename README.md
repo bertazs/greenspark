@@ -8,6 +8,7 @@
 - Docker
 - Vite
 - Tailwind CSS
+- Pinia (Vue 3 Store)
 
 ## Local
 
