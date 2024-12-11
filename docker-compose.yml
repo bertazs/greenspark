@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: greenspark-task-app
+    restart: unless-stopped
+    working_dir: /app
+    ports:
+      - "8080:3000"
+    volumes:
+      - ./:/var/www/html/app
+    tty: true
